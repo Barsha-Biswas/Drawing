@@ -1,0 +1,88 @@
+/* =========================================================================
+    Responsive designig 
+   ========================================================================= */
+
+   @media screen and (max-width: 1030px) {
+    .banner p {
+        font-size: 2rem;
+    }
+    a{
+        font-size: 1.12rem;
+    }
+    .photography-text p a {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 790px){
+    .fiture-photos{
+        margin: auto;
+        width: 100%;
+        
+
+    }
+    .photo-galary{
+        grid-template-columns: repeat(3, 30%);
+        margin: 1em auto;
+    }
+    section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .social{
+        flex-direction: row;
+    }
+    .social-link-holder a, .social-link-holder h2{
+        font-size: 1rem !important;
+    }
+    section > div{
+        width: 100% !important;
+        margin: 1em auto;
+    }
+
+    /* contact */
+    #text-box-1, #text-box-2{
+        height: 6em;
+    }
+    .contact div{
+        width: 100%;
+    }
+}
+@media screen and (max-width:590px){
+    .heading h1, .topheading h1{
+        font-size: 1.2rem;
+    }
+
+    section h1{
+        font-size: 1.12rem;
+    }
+    .fiture-photos{
+        width: 100%;
+        margin: auto;
+    }
+    .photo-galary{
+        grid-template-columns: repeat(2, 40%);
+        // gap: 10px;
+        margin: 1em auto;
+    }
+    .photography-text p a {
+        font-size: 0.8rem;
+    }
+    .social-link-holder a, .social-link-holder h2{
+        font-size: 0.7rem !important;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-social-links a, .footer-nav a{
+        font-size: 1rem !important;
+    }
+    footer > div{
+        width: 100% !important;
+    }
+    .heading{
+        margin: 1.5em auto;
+    }
+}
